@@ -4,7 +4,7 @@ Este proyecto es una aplicación web simple que utiliza la API Random User para 
 
 ## Características
 
-- **Carga inicial de usuarios:** Al iniciar la aplicación, se realiza una solicitud a la API Random User para obtener una lista inicial de 100 usuarios.
+- **Carga inicial de usuarios:** Al iniciar la aplicación, se realiza una solicitud a la API Random User para obtener una lista inicial de 10 usuarios.
 
 - **Filtrado por país:** Los usuarios pueden filtrarse por país utilizando la barra de búsqueda. La lista se actualiza automáticamente al ingresar texto en el campo de filtro.
 
@@ -13,6 +13,8 @@ Este proyecto es una aplicación web simple que utiliza la API Random User para 
 - **Colorear filas:** Se puede alternar la opción de colorear las filas de la tabla con un simple clic en el botón correspondiente.
 
 - **Acciones sobre usuarios:** Se proporcionan botones para borrar usuarios individualmente o eliminar todos los usuarios de la lista.
+
+- **Paginación:** Se ha implementado paginación para cargar y mostrar más usuarios de manera incremental.
 
 ## Estructura del Proyecto
 
